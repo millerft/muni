@@ -107,136 +107,166 @@
 
     <!-- Main content for Turismo page -->
     <main class="container mx-auto p-6 bg-white shadow-md rounded-b-lg">
-        <h1 class="text-4xl font-bold text-green-800 mb-6 text-center">Explora Mazamari</h1>
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+            <!-- Main Turismo Content -->
+            <div class="lg:col-span-3">
+                <h1 class="text-4xl font-bold text-green-800 mb-6 text-center lg:text-left">Explora Mazamari</h1>
 
-        <!-- Puntos esenciales en Mazamari (Cosas que hacer) -->
-        <section class="mb-10">
-            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Puntos esenciales en Mazamari</h2>
-            <p class="text-gray-600 mb-6">Lugares para ver, formas de recorrer y experiencias destacadas.</p>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Catarata Arco Iris -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="catarata arco iris.jpg" alt="Catarata Arco Iris" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Catarata Arco Iris</h3>
-                        <div class="flex items-center text-yellow-500 mb-2">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                            <span class="ml-2 text-gray-600 text-sm">4.6 (9)</span>
+                <!-- Puntos esenciales en Mazamari (Cosas que hacer) -->
+                <section class="mb-10">
+                    <h2 class="text-3xl font-semibold text-gray-800 mb-4">Puntos esenciales en Mazamari</h2>
+                    <p class="text-gray-600 mb-6">Lugares para ver, formas de recorrer y experiencias destacadas.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <!-- Catarata Arco Iris -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <img src="catarata arco iris.jpg" alt="Catarata Arco Iris" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">Catarata Arco Iris</h3>
+                                <div class="flex items-center text-yellow-500 mb-2">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    <span class="ml-2 text-gray-600 text-sm">4.6 (9)</span>
+                                </div>
+                                <p class="text-gray-700 text-sm">Cascadas</p>
+                            </div>
                         </div>
-                        <p class="text-gray-700 text-sm">Cascadas</p>
-                    </div>
-                </div>
-                <!-- Arco Iris (asumiendo que es otra vista o actividad relacionada) -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="arco iris.jpg" alt="Arco Iris" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Arco Iris</h3>
-                        <div class="flex items-center text-yellow-500 mb-2">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                            <span class="ml-2 text-gray-600 text-sm">5.0 (1)</span>
+                        <!-- Arco Iris (asumiendo que es otra vista o actividad relacionada) -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <img src="arco iris.jpg" alt="Arco Iris" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">Arco Iris</h3>
+                                <div class="flex items-center text-yellow-500 mb-2">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span class="ml-2 text-gray-600 text-sm">5.0 (1)</span>
+                                </div>
+                                <p class="text-gray-700 text-sm">Parques de diversión y temáticos</p>
+                            </div>
                         </div>
-                        <p class="text-gray-700 text-sm">Parques de diversión y temáticos</p>
-                    </div>
-                </div>
-                <!-- Zumag Peru Tour Operator -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="piscina-betania-en-el.jpg" alt="Zumag Peru Tour Operator" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Zumag Peru Tour Operator</h3>
-                        <div class="flex items-center text-yellow-500 mb-2">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                            <span class="ml-2 text-gray-600 text-sm">4.8 (5)</span>
+                        <!-- Zumag Peru Tour Operator -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <img src="piscina-betania-en-el.jpg" alt="Zumag Peru Tour Operator" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">Zumag Peru Tour Operator</h3>
+                                <div class="flex items-center text-yellow-500 mb-2">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    <span class="ml-2 text-gray-600 text-sm">4.8 (5)</span>
+                                </div>
+                                <p class="text-gray-700 text-sm">Tours turísticos, Tours a pie</p>
+                            </div>
                         </div>
-                        <p class="text-gray-700 text-sm">Tours turísticos, Tours a pie</p>
                     </div>
-                </div>
-            </div>
-        </section>
+                </section>
 
-        <!-- Alojamientos -->
-        <section class="mb-10">
-            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Alojamientos</h2>
-            <p class="text-gray-600 mb-6">Una mezcla de lo encantador, lo moderno y lo comprobado.</p>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Vicctorios Hotel -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="terraza-en-victtorios.jpg" alt="Vicctorios Hotel" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Vicctorios Hotel</h3>
-                        <div class="flex items-center text-yellow-500 mb-2">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                            <span class="ml-2 text-gray-600 text-sm">4.6 (30)</span>
+                <!-- Alojamientos -->
+                <section class="mb-10">
+                    <h2 class="text-3xl font-semibold text-gray-800 mb-4">Alojamientos</h2>
+                    <p class="text-gray-600 mb-6">Una mezcla de lo encantador, lo moderno y lo comprobado.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <!-- Vicctorios Hotel -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <img src="terraza-en-victtorios.jpg" alt="Vicctorios Hotel" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">Vicctorios Hotel</h3>
+                                <div class="flex items-center text-yellow-500 mb-2">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    <span class="ml-2 text-gray-600 text-sm">4.6 (30)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Hotel Torre Blanca -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <img src="vista-de-noche-del-hotel.jpg" alt="Hotel Torre Blanca" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">Hotel Torre Blanca</h3>
+                                <div class="flex items-center text-yellow-500 mb-2">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    <span class="ml-2 text-gray-600 text-sm">3.5 (2)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Hotel Brassia -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <img src="hotel-brassia.jpg" alt="Hotel Brassia" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">Hotel Brassia</h3>
+                                <div class="flex items-center text-yellow-500 mb-2">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    <span class="ml-2 text-gray-600 text-sm">4.3 (8)</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- Hotel Torre Blanca -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="vista-de-noche-del-hotel.jpg" alt="Hotel Torre Blanca" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Hotel Torre Blanca</h3>
-                        <div class="flex items-center text-yellow-500 mb-2">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                            <span class="ml-2 text-gray-600 text-sm">3.5 (2)</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Hotel Brassia -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="hotel-brassia.jpg" alt="Hotel Brassia" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Hotel Brassia</h3>
-                        <div class="flex items-center text-yellow-500 mb-2">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                            <span class="ml-2 text-gray-600 text-sm">4.3 (8)</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                </section>
 
-        <!-- Restaurantes -->
-        <section>
-            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Restaurantes</h2>
-            <p class="text-gray-600 mb-6">Lugares imperdibles para cenar, beber y festejar.</p>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Las Brisas -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="caption.jpg" alt="Las Brisas Restaurante" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Las Brisas</h3>
-                        <div class="flex items-center text-yellow-500 mb-2">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                            <span class="ml-2 text-gray-600 text-sm">4.3 (4)</span>
+                <!-- Restaurantes -->
+                <section>
+                    <h2 class="text-3xl font-semibold text-gray-800 mb-4">Restaurantes</h2>
+                    <p class="text-gray-600 mb-6">Lugares imperdibles para cenar, beber y festejar.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <!-- Las Brisas -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <img src="caption.jpg" alt="Las Brisas Restaurante" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">Las Brisas</h3>
+                                <div class="flex items-center text-yellow-500 mb-2">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    <span class="ml-2 text-gray-600 text-sm">4.3 (4)</span>
+                                </div>
+                                <p class="text-gray-700 text-sm">$$ - $$$</p>
+                            </div>
                         </div>
-                        <p class="text-gray-700 text-sm">$$ - $$$</p>
-                    </div>
-                </div>
-                <!-- Restaurante Turístico POSHINI -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="presentacion-de-platillos.jpg" alt="Restaurante Turístico POSHINI" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Restaurante Turístico POSHINI</h3>
-                        <div class="flex items-center text-yellow-500 mb-2">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                            <span class="ml-2 text-gray-600 text-sm">4.5 (20)</span>
+                        <!-- Restaurante Turístico POSHINI -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <img src="presentacion-de-platillos.jpg" alt="Restaurante Turístico POSHINI" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">Restaurante Turístico POSHINI</h3>
+                                <div class="flex items-center text-yellow-500 mb-2">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    <span class="ml-2 text-gray-600 text-sm">4.5 (20)</span>
+                                </div>
+                                <p class="text-gray-700 text-sm">$$ - $$$ • Peruana, Cajún y criolla, Churrasquería</p>
+                            </div>
                         </div>
-                        <p class="text-gray-700 text-sm">$$ - $$$ • Peruana, Cajún y criolla, Churrasquería</p>
-                    </div>
-                </div>
-                <!-- Coffee Break Satipo -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="coffee-break-satipo.jpg" alt="Coffee Break Satipo" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Coffee Break Satipo</h3>
-                        <div class="flex items-center text-yellow-500 mb-2">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                            <span class="ml-2 text-gray-600 text-sm">4.2 (15)</span>
+                        <!-- Coffee Break Satipo -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <img src="coffee-break-satipo.jpg" alt="Coffee Break Satipo" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">Coffee Break Satipo</h3>
+                                <div class="flex items-center text-yellow-500 mb-2">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    <span class="ml-2 text-gray-600 text-sm">4.2 (15)</span>
+                                </div>
+                                <p class="text-gray-700 text-sm">$$ - $$$ • Café, Peruana, Sudamericana</p>
+                            </div>
                         </div>
-                        <p class="text-gray-700 text-sm">$$ - $$$ • Café, Peruana, Sudamericana</p>
                     </div>
-                </div>
+                </section>
             </div>
-        </section>
+
+            <!-- Aside Section for Turismo -->
+            <aside class="lg:col-span-1 bg-gray-50 p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-bold text-green-800 mb-4">Información Turística</h2>
+                <ul class="space-y-4">
+                    <li class="border-b border-gray-200 pb-2">
+                        <a href="#" class="text-gray-700 hover:text-green-600 font-semibold">Mapa de Atracciones</a>
+                        <p class="text-sm text-gray-500">Descarga nuestro mapa turístico</p>
+                    </li>
+                    <li class="border-b border-gray-200 pb-2">
+                        <a href="#" class="text-gray-700 hover:text-green-600 font-semibold">Guías de Viaje</a>
+                        <p class="text-sm text-gray-500">Consejos y recomendaciones para tu visita</p>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-700 hover:text-green-600 font-semibold">Tours Recomendados</a>
+                        <p class="text-sm text-gray-500">Explora lo mejor de Mazamari</p>
+                    </li>
+                </ul>
+
+                <h2 class="text-2xl font-bold text-green-800 mt-8 mb-4">Eventos Próximos</h2>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-green-600 hover:underline">Festival de la Cosecha (Octubre)</a></li>
+                    <li><a href="#" class="text-green-600 hover:underline">Feria Gastronómica Local (Noviembre)</a></li>
+                </ul>
+            </aside>
+        </div>
     </main>
 
     <!-- Footer -->

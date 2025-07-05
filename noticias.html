@@ -107,11 +107,41 @@
 
     <!-- Main content for Noticias page -->
     <main class="container mx-auto p-6 bg-white shadow-md rounded-b-lg">
-        <h1 class="text-4xl font-bold text-green-800 mb-6 text-center">Últimas Noticias de Mazamari</h1>
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+            <!-- Main News Content -->
+            <div class="lg:col-span-3">
+                <h1 class="text-4xl font-bold text-green-800 mb-6 text-center lg:text-left">Últimas Noticias de Mazamari</h1>
+                <div id="news-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Las noticias se cargarán aquí dinámicamente -->
+                    <p class="text-center text-gray-500 col-span-full">Cargando noticias...</p>
+                </div>
+            </div>
 
-        <div id="news-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <!-- Las noticias se cargarán aquí dinámicamente -->
-            <p class="text-center text-gray-500 col-span-full">Cargando noticias...</p>
+            <!-- Aside Section -->
+            <aside class="lg:col-span-1 bg-gray-50 p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-bold text-green-800 mb-4">Anuncios Importantes</h2>
+                <ul class="space-y-4">
+                    <li class="border-b border-gray-200 pb-2">
+                        <a href="#" class="text-gray-700 hover:text-green-600 font-semibold">Convocatoria para Voluntariado Ambiental 2025</a>
+                        <p class="text-sm text-gray-500">Fecha límite: 31 de Julio</p>
+                    </li>
+                    <li class="border-b border-gray-200 pb-2">
+                        <a href="#" class="text-gray-700 hover:text-green-600 font-semibold">Próximos Talleres de Capacitación para Emprendedores</a>
+                        <p class="text-sm text-gray-500">Inscripciones abiertas</p>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-700 hover:text-green-600 font-semibold">Horarios Especiales por Fiestas Patrias</a>
+                        <p class="text-sm text-gray-500">Del 27 al 29 de Julio</p>
+                    </li>
+                </ul>
+
+                <h2 class="text-2xl font-bold text-green-800 mt-8 mb-4">Enlaces Rápidos</h2>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-green-600 hover:underline">Trámites en Línea</a></li>
+                    <li><a href="#" class="text-green-600 hover:underline">Directorio Municipal</a></li>
+                    <li><a href="#" class="text-green-600 hover:underline">Preguntas Frecuentes</a></li>
+                </ul>
+            </aside>
         </div>
     </main>
 
@@ -183,35 +213,35 @@
                     title: "Mazamari: Arte y cultura Asháninka en nacimiento",
                     date: "2024-07-05",
                     summary: "El distrito satipo celebra la Navidad con vestimenta y artesanías creadas por las comunidades nativas de Boca Capirushari y Cañete.",
-                    imageUrl: "1.webp", // Inserta la ruta a tu imagen aquí
+                    imageUrl: "1.webp", // Ruta a tu imagen
                     link: "#" // Enlace a la noticia completa si existiera
                 },
                 {
                     title: "Vestimenta y artesanía tradicional",
                     date: "2024-07-05",
                     summary: "La participación de las comunidades nativas fortalece el vínculo entre la tradición y la modernidad en las celebraciones locales.",
-                    imageUrl: "2.webp", // Inserta la ruta a tu imagen aquí
+                    imageUrl: "2.webp", // Ruta a tu imagen
                     link: "#"
                 },
                 {
                     title: "Gran Inauguración de la Plaza Principal",
                     date: "2024-07-01",
                     summary: "La Municipalidad Distrital de Mazamari se complace en anunciar la inauguración de la renovada Plaza Principal, un espacio para el encuentro y la recreación de todos los ciudadanos.",
-                    imageUrl: "descargar.webp", // Inserta la ruta a tu imagen aquí
+                    imageUrl: "descargar.webp", // Ruta a tu imagen
                     link: "#"
                 },
                 {
                     title: "Campaña de Salud Gratuita en Comunidades Rurales",
                     date: "2024-06-25",
                     summary: "Se llevó a cabo una exitosa campaña de salud integral, brindando atención médica y medicamentos gratuitos a las comunidades más alejadas de Mazamari.",
-                    imageUrl: "campaña.webp", // Inserta la ruta a tu imagen aquí
+                    imageUrl: "campaña.webp", // Ruta a tu imagen
                     link: "#"
                 },
                 {
                     title: "Nuevo Programa de Apoyo a Emprendedores Locales",
                     date: "2024-06-15",
                     summary: "Lanzamiento de una iniciativa municipal para capacitar y financiar pequeños negocios, fomentando el desarrollo económico en el distrito.",
-                    imageUrl: "emprendedor.webp", // Inserta la ruta a tu imagen aquí
+                    imageUrl: "emprendedor.webp", // Ruta a tu imagen
                     link: "#"
                 }
             ];
